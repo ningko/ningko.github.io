@@ -15,7 +15,6 @@ body {
     justify-content: space-evenly;
     text-align: center;
     padding: 10px;
-
 }
 
 .nav {
@@ -23,17 +22,66 @@ body {
     padding: 5px;
 }
 
-button {
+.button {
     background-color: #ebcfa3;
     color: #353535;
-    border: none;
     padding: 15px;
     margin: 10px;
-    border: 3px;
+    border: 1px;
     border-radius: 15px;
-    font-size: 20px;
+    font-size: 18px;
+    cursor: pointer;
 }
 
-button:hover {
+.button:hover {
     background-color: #e1b674;
+}
+
+.overlay {
+    background: #fff;
+    transition: all 1s;
+    position: relative;
+    visibility: hidden;
+    opacity: 0;
+    align-self: center;
+
+    .cancel {
+        position: absolute;
+        width: 20%;
+        height: 20%;
+        cursor: default;
+    }
+
+    &:target {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+.popup {
+    align-content: center;
+    padding: 20px;
+    background: #c6ac82;
+    opacity: 90%;
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    border-radius: 25px;
+    font-size: 18px;
+    top: 40%;
+    left: 33%;
+}
+
+.close {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 20px;
+    right: 20px;
+    opacity: 0.8;
+    transition: all 200ms;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #353535;
 }
