@@ -85,3 +85,19 @@ body {
     text-decoration: none;
     color: #353535;
 }
+
+.sobremi {
+    column-count: 2;
+}
+
+.sobremiimg {
+    display: grid;
+    justify-content: center;
+}
+
+.sobremicontent {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
