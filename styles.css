@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
 }
 
 body {
@@ -117,4 +118,9 @@ body {
     justify-content: center;
     text-align: center;
     padding: 10px;
+}
+
+.redesicons {
+    padding: 20px;
+    text-decoration: none;
 }
