@@ -101,3 +101,20 @@ body {
     text-align: center;
     padding: 10px;
 }
+
+.proyecto {
+    column-count: 2;
+}
+
+.proyectoimg {
+    display: grid;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.proyectocontent {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
