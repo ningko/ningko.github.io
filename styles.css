@@ -124,3 +124,28 @@ body {
     padding: 20px;
     text-decoration: none;
 }
+
+.homepage {
+    column-count: 3;
+}
+
+.spotify {
+    padding: 10px;
+}
+
+.todolist {
+    padding: 10px;
+    h3 {
+        font-size: 30px;
+    }
+    height: 500px;
+}
+
+.linksutiles {
+    column-count: 2;
+    padding: 10px;
+    h3 {
+        font-size: 30px;
+    }
+    height: 500px;
+}
