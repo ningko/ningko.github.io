@@ -14,6 +14,17 @@ p {
     color: #353535;
 }
 
+a, a:focus, a:active {
+    text-decoration: none !important;
+    color: inherit;
+}
+
+a:hover {
+    color: #51414F;
+    text-decoration: none; 
+    cursor: pointer;  
+}
+
 .header {
     background-color: #ebcfa3;
     height: 150px;
@@ -159,4 +170,10 @@ p {
 
 input[type="checkbox"]:checked + label {
     text-decoration: line-through;
+}
+
+.linksutiles {
+    ul {
+        padding: 5px;
+    }
 }
