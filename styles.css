@@ -9,6 +9,11 @@ body {
     background-color: #fff8e7;
 }
 
+p {
+    padding: 10px;
+    color: #353535;
+}
+
 .header {
     background-color: #ebcfa3;
     height: 150px;
@@ -148,4 +153,14 @@ body {
         font-size: 30px;
     }
     height: 500px;
+}
+
+.checkboxes {
+    padding: 10px;
+    font-size: 18px;
+    color: #353535
+}
+
+input[type="checkbox"]:checked + label {
+    text-decoration: line-through;
 }
