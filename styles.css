@@ -114,6 +114,7 @@ a:hover {
 
 .sobremicontent {
     padding: 10px;
+    height: 100px;
     display: grid;
     justify-content: center;
     text-align: center;
