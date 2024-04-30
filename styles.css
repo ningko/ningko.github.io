@@ -15,8 +15,8 @@ p {
 }
 
 a, a:focus, a:active {
-    text-decoration: none !important;
     color: inherit;
+    text-decoration: none !important;
 }
 
 a:hover {
@@ -26,26 +26,26 @@ a:hover {
 }
 
 .header {
-    background-color: #ebcfa3;
     height: 150px;
-    font-size: 25px;
-    justify-content: space-evenly;
-    text-align: center;
     padding: 10px;
+    background-color: #ebcfa3;
+    font-size: 25px;
+    text-align: center;
+    justify-content: space-evenly;
 }
 
 .nav {
-    justify-content: space-evenly;
     padding: 5px;
+    justify-content: space-evenly;
 }
 
 .button {
-    background-color: #ebcfa3;
-    color: #353535;
     padding: 15px;
     margin: 10px;
     border: 1px;
     border-radius: 15px;
+    background-color: #ebcfa3;
+    color: #353535;
     font-size: 18px;
     cursor: pointer;
 }
@@ -56,11 +56,11 @@ a:hover {
 
 .overlay {
     background: #fff;
+    align-self: center;
     transition: all 1s;
     position: relative;
     visibility: hidden;
     opacity: 0;
-    align-self: center;
 
     .cancel {
         position: absolute;
@@ -76,31 +76,31 @@ a:hover {
 }
 
 .popup {
-    align-content: center;
-    padding: 20px;
-    background: #c6ac82;
-    opacity: 95%;
     width: 500px;
     height: 300px;
-    position: absolute;
+    padding: 20px;
     border-radius: 25px;
-    font-size: 18px;
     top: 40%;
     left: 33%;
+    font-size: 18px;
+    align-content: center;
+    background: #c6ac82;
+    opacity: 95%;
+    position: absolute;
 }
 
 .close {
-    position: absolute;
     width: 20px;
     height: 20px;
     top: 20px;
     right: 20px;
+    color: #353535;
+    position: absolute;
     opacity: 0.8;
     transition: all 200ms;
     font-size: 24px;
     font-weight: bold;
     text-decoration: none;
-    color: #353535;
 }
 
 .sobremi {
@@ -113,10 +113,10 @@ a:hover {
 }
 
 .sobremicontent {
+    padding: 10px;
     display: grid;
     justify-content: center;
     text-align: center;
-    padding: 10px;
 }
 
 .proyecto {
@@ -124,16 +124,16 @@ a:hover {
 }
 
 .proyectoimg {
+    margin-top: 50px;
     display: grid;
     justify-content: center;
-    margin-top: 50px;
 }
 
 .proyectocontent {
+    padding: 10px;
     display: grid;
     justify-content: center;
     text-align: center;
-    padding: 10px;
 }
 
 .redesicons {
@@ -151,10 +151,10 @@ a:hover {
 
 .todolist {
     padding: 10px;
+    height: 500px;
     h3 {
         font-size: 30px;
     }
-    height: 500px;
 }
 
 .linksutiles {
