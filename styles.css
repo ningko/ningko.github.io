@@ -147,11 +147,7 @@ p {
 }
 
 .linksutiles {
-    column-count: 2;
-    padding: 10px;
-    h3 {
-        font-size: 30px;
-    }
+    padding: 15px;
     height: 500px;
 }
 
